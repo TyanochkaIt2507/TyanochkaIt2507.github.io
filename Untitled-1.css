@@ -1,0 +1,29 @@
+.yutkte{  
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    animation: pulsing 2s infinite;
+}
+
+ .bibanabobe{
+    width: 600px;
+ }
+ body{
+
+ }
+ .yutkte{  
+    animation: pulsing 2s infinite;
+}
+@keyframes pulsing{
+   0% { transform: scale(0.7,0.7);
+
+}
+50% {
+   transform: scale(1.0,1.0);
+}
+100% {
+   transform: scale(0.7,0.7);
+}
+}

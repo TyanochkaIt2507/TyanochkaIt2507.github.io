@@ -1,0 +1,35 @@
+
+.rytjrtr{  
+   width: 100px;
+   height: 100px;
+   position: fixed;
+   top: 100px;
+   left: 20px;
+
+}
+.bibanabobe{
+   width: 500px;
+}
+
+
+.bibanabobe{
+   width: 600px;
+}
+body{
+
+}
+.rytjrtr{  
+   animation: pulsing 2s infinite;
+}
+@keyframes pulsing{
+  0% { transform: scale(0.7,0.7);
+
+}
+50% {
+  transform: scale(1.0,1.0);
+}
+100% {
+  transform: scale(0.7,0.7);
+}
+}
+
